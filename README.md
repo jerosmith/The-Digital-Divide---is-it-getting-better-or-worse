@@ -3,6 +3,15 @@ The Digital Divide: Is it getting better or worse? A perspective on the first qu
 
 There are two types of files: code and data, and are specified in the following lists:
 
+CODE FILES
+01 Download World Bank data.R
+02 Create database.R
+03 Distribution plot.R
+04 Time series plot.R
+05 Scatterplots.R
+06 Regression and prediction.R
+07 Test predictive model.R
+
 SOURCE DATA FILES
 IT.NET.BBND.P2 - Fixed broadband subscriptions (per 100 people).csv
 IT.NET.USER.ZS - Individuals using the Internet (% of population).csv
@@ -16,11 +25,12 @@ FINAL DATABASE DATA FILES
 WorldBank_Database.csv
 WorldBank_Database.xlsx
 
-CODE FILES
-01 Download World Bank data.R
-02 Create database.R
-03 Distribution plot.R
-04 Time series plot.R
-05 Scatterplots.R
-06 Regression and prediction.R
-07 Test predictive model.R
+EXCEL TABLES
+DB_World_Prediction.xlsx
+DB_World_Ranking.xlsx
+DB_World_Testing.xlsx
+Paper_MostPop_Prediction.xlsx
+Paper_MostPop_Ranking.xlsx
+Paper_MostPop_Testing.xlsx
+Paper_World_Prediction.xlsx
+Paper_World_Testing.xlsx
