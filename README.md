@@ -3,10 +3,18 @@ The Digital Divide: Is it getting better or worse? A perspective on the first qu
 
 There are two types of files: code and data, and are specified in the following lists:
 
-DATA FILES
+SOURCE DATA FILES
 IT.NET.BBND.P2 - Fixed broadband subscriptions (per 100 people).csv
 IT.NET.USER.ZS - Individuals using the Internet (% of population).csv
 SP.POP.TOTL - Population, total.csv
+
+METADATA FILES
+WDI Metadata.xlsx
+Metadata P07.xlsx
+
+FINAL DATABASE DATA FILES
+WorldBank_Database.csv
+WorldBank_Database.xlsx
 
 CODE FILES
 01 Download World Bank data.R
