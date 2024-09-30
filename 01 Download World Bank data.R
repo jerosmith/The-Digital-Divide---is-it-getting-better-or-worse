@@ -39,8 +39,7 @@ if (download.metadata){
 df_data = WDI(indicator = variable.code)
 df_data = df_data[df_data$year >= year0, ]
 
-# Save metadata and data
-
+# Save data
 variable.name = df_variables[df_variables$Series.Code == variable.code, "Indicator.Name"]
 write.table(df_data, file = paste0(path.data, variable.code, " - ", variable.name, ".csv"), sep = "|", dec = ".", row.names = F)
 
